@@ -6,8 +6,16 @@ class Casa //a casa que esta sendo construida contem 4 comodos
     public $quarto;
     public $cozinha;
     public $lavanderia;
-    public $quintal;
+    public $quintal;// riden 
+    public $adiquirente;
+
+    function teste() //metodo 
+    {
+      return "Ola, eu sou a funcao Teste"
+    }
 } 
+
+
 
 //new é  construtor de objetos
 $construtor = new casa; // construtor objeto da classe casa
@@ -30,5 +38,11 @@ $construtor = new casa; // construtor objeto da classe casa
   //["quintal"]=>
   //NULL
 //}
+
+?>
+
+<?php
+
+
 
 ?>

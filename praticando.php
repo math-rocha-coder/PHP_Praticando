@@ -12,6 +12,7 @@ $y = 5;
 function teste(){
     global $x; // como declarar uma variavel global
     echo "<h1>O valor de x dentro da Função $x</h1>";
+    
 }
 
 teste();
@@ -26,3 +27,4 @@ echo strlen ();
 
 
 ?>
+
